@@ -1,0 +1,655 @@
+{
+ "offers": [
+  {
+   "key": "site",
+   "stream": "hpm",
+   "title": [
+    "Digitale Bauleitung · Site.OS",
+    "Digital Construction Management · Site.OS"
+   ],
+   "head": [
+    "Was fehlt noch, bevor dieser Abschnitt übergeben werden kann?",
+    "What is still open before this section can be handed over?"
+   ],
+   "body": [
+    "Der Bauleiter sieht den Mangel vor Ort. Die Prüfunterlage liegt im Büro. Erst wenn beide denselben Stand kennen, kann jemand über die Abnahme entscheiden.",
+    "The site supervisor sees the defect. The inspection record is back in the office. Before either team can sign off, both need to see the same drawing and the outstanding action."
+   ],
+   "service": [
+    "Wir richten mit Ihrer Bauleitung Prüfabschnitte, Verantwortliche und Nachweise für die Übergabe ein. Im gemeinsamen Termin arbeiten wir einen offenen Punkt bis zur nächsten Entscheidung durch.",
+    "We work with your site team to define inspection sections, owners and handover evidence. Together we trace an open site issue to the person who can decide it."
+   ],
+   "output": [
+    "Prüfabschnitt mit Planbezug, Maßnahmenverantwortlichem und Übergabestatus.",
+    "An inspection section linked to its drawing, action owner and handover status."
+   ],
+   "views": [
+    [
+     "task",
+     [
+      "Wer ist für die Prüfung zuständig?",
+      "Who owns the review?"
+     ]
+    ],
+    [
+     "drawing",
+     [
+      "Welche Stelle ist betroffen?",
+      "Which drawing detail is affected?"
+     ]
+    ],
+    [
+     "overview",
+     [
+      "Wie erscheint die Entscheidung in der Übersicht?",
+      "Where does the decision appear in the overview?"
+     ]
+    ]
+   ],
+   "measure": [
+    "Anteil der Prüfabschnitte mit vollständigen Nachweisen bei der ersten Übergabe.",
+    "Share of inspection sections with complete evidence at first handover."
+   ],
+   "cta": [
+    "Prüfabschnitt besprechen",
+    "Discuss an inspection section"
+   ],
+   "demo": "one",
+   "path": "digital-construction-management",
+   "context": "converter"
+  },
+  {
+   "key": "bim",
+   "stream": "hpm",
+   "title": [
+    "BIM und Planmanagement",
+    "BIM & Plan Management"
+   ],
+   "head": [
+    "Welchen Planstand darf die Baustelle verwenden?",
+    "Which drawing revision can the site build from?"
+   ],
+   "body": [
+    "In Index A fehlte der Wartungszugang. Der Planer reicht Index B ein. Jetzt entscheidet die Programmleitung anhand der Stellungnahmen, ob genau diese Revision zur Ausführung freigegeben werden kann.",
+    "Revision A left maintenance access unresolved. The designer submits revision B. The programme lead can now check the review responses and decide whether that revision is ready for construction."
+   ],
+   "service": [
+    "Wir bauen mit Ihrem Planungsteam den Planlauf auf, klären Prüfrollen und verfolgen Auflagen bis zur Freigabe. Die Bauleitung erhält einen Planstand mit zugehörigem Entscheid.",
+    "We set up the drawing review with your design team, assign reviewers and trace conditions to release. The site receives a drawing issue with the decision that authorises its use."
+   ],
+   "output": [
+    "Planregister, Prüfweg und Freigabenachweis je Revision.",
+    "A drawing register, review route and release record for each revision."
+   ],
+   "views": [
+    [
+     "register",
+     [
+      "Index B im Planregister.",
+      "Revision B in the drawing register."
+     ]
+    ],
+    [
+     "bim",
+     [
+      "Nachweise zum Wartungszugang M-04.",
+      "Review evidence for maintenance access M-04."
+     ]
+    ],
+    [
+     "release",
+     [
+      "Zur Ausführung freigegebener Planstand.",
+      "The issue released for construction."
+     ]
+    ]
+   ],
+   "measure": [
+    "Zeit vom vollständigen Planeingang bis zur Freigabe. Rückläufe wegen veralteter Revisionen gesondert zählen.",
+    "Time from complete submission to release. Track returns caused by a superseded revision separately."
+   ],
+   "cta": [
+    "Planlauf besprechen",
+    "Discuss a drawing review"
+   ],
+   "demo": null,
+   "path": "bim-plan-management",
+   "context": "hbf"
+  },
+  {
+   "key": "flow",
+   "stream": "hpi",
+   "title": [
+    "Workflow Automation",
+    "Workflow Automation"
+   ],
+   "head": [
+    "Ein Plansatz, zwei Auftraggeber. Wer prüft welche Fassung?",
+    "One drawing package, two client formats. Who reviews each one?"
+   ],
+   "body": [
+    "Die Planungskoordinatorin übernimmt die Daten eines Plansatzes in zwei Zielformate. Im selben Ablauf legt sie fest, wer jedes Dokument prüft und wann die nächste Aufgabe beginnt.",
+    "The planning coordinator maps one source package into two client formats. In the same workflow, she assigns the reviewer for each document and sets when the next task starts."
+   ],
+   "service": [
+    "Bringen Sie einen Plansatz und die Zielvorlagen mit. Wir erfassen die Feldzuordnung und legen mit den Beteiligten Prüfrollen, Fristen und Übergaben für den ersten Ablauf fest.",
+    "Bring one drawing package and the target templates. We map the fields and agree review roles, deadlines and handovers with the people responsible for the first workflow."
+   ],
+   "output": [
+    "Ein abgestimmter Musterablauf mit Vorlage, Rollen und Übergabepunkten.",
+    "An agreed reference workflow with templates, roles and handover points."
+   ],
+   "views": [
+    [
+     "pdf",
+     [
+      "Felder im PDF Creator zuordnen.",
+      "Map fields in PDF Creator."
+     ]
+    ],
+    [
+     "workflow",
+     [
+      "Prüfrollen und Abhängigkeiten im Ablauf bearbeiten.",
+      "Edit review roles and dependencies in the workflow."
+     ]
+    ],
+    [
+     "wtasks",
+     [
+      "Nächste Aufgabe und Fälligkeit verfolgen.",
+      "Track the next task and its due date."
+     ]
+    ]
+   ],
+   "measure": [
+    "Bearbeitungsminuten je Paket und Wartezeit bis zur nächsten Prüfung getrennt erfassen.",
+    "Measure preparation minutes per package separately from elapsed time to the next review."
+   ],
+   "cta": [
+    "Eigenen Freigabeprozess besprechen",
+    "Discuss your approval workflow"
+   ],
+   "demo": "five",
+   "path": "workflow-automation",
+   "context": "s21"
+  },
+  {
+   "key": "systems",
+   "stream": "hpi",
+   "title": [
+    "Vernetzte Projektsysteme",
+    "Connected Project Systems"
+   ],
+   "head": [
+    "Wo im Modell liegt der Punkt aus dem Prüfbericht?",
+    "Where in the model is the item in the review report?"
+   ],
+   "body": [
+    "Eine Rückfrage bezieht sich auf eine Planstelle. Der BIM Koordinator öffnet den zugehörigen Modellbereich und sieht, welche Quelldatei und welcher Prüfstatus dazugehören.",
+    "A reviewer raises a question about a drawing detail. The BIM coordinator opens the corresponding model location and sees which source file and review status belong to it."
+   ],
+   "service": [
+    "Wir verfolgen einen echten Informationsweg durch Ihre Werkzeuge. Gemeinsam bestimmen wir führende Quelle, Kennung, Rechte und Zuständigkeit, bevor wir die Anbindung für diesen Weg ausarbeiten.",
+    "We trace one information flow through your tools. Together we identify the source of record, identifier, permissions and owner before designing the connection for that flow."
+   ],
+   "output": [
+    "Schnittstellenübersicht mit Datenquelle, Ziel, Zuordnung und verantwortlicher Person.",
+    "An interface map with the source, destination, record mapping and owner."
+   ],
+   "views": [
+    [
+     "source",
+     [
+      "Quelldatei und Modellkontext identifizieren.",
+      "Identify the source file and model context."
+     ]
+    ],
+    [
+     "model",
+     [
+      "Dieselbe Stelle im gemeinsamen Modell öffnen.",
+      "Open the same location in the shared model."
+     ]
+    ],
+    [
+     "overview",
+     [
+      "Prüfstatus in der Übersicht nachverfolgen.",
+      "Follow the review status in the overview."
+     ]
+    ]
+   ],
+   "measure": [
+    "Minuten für den Abgleich widersprüchlicher Einträge pro Vorgang.",
+    "Minutes spent reconciling conflicting records per package."
+   ],
+   "cta": [
+    "Schnittstelle besprechen",
+    "Discuss a system interface"
+   ],
+   "demo": "one",
+   "path": "connected-project-systems",
+   "context": "portal"
+  },
+  {
+   "key": "recruit",
+   "stream": "hwm",
+   "title": [
+    "Engineering Recruiting und Headhunting",
+    "Engineering Recruiting & Headhunting"
+   ],
+   "head": [
+    "Wer übernimmt Freigaben, wenn die Projektleitung im Urlaub ist?",
+    "Who will keep approvals moving when the project lead is on leave?"
+   ],
+   "body": [
+    "Im Bahnelektrifizierungsprojekt arbeiten 148 Menschen. Trotzdem verfolgen Ingenieure offene Beschlüsse selbst. Die Projektleiterin leitet zwei Rollen ab: eine für automatisierte Vertretungen, eine für die Maßnahmenliste.",
+    "A railway electrification project has 148 people on its register, yet engineers still chase approvals. The project lead defines two roles. A developer routes approvals to deputies. A working student keeps decisions, owners and deadlines current."
+   ],
+   "service": [
+    "Wir übersetzen das Arbeitspaket in zwei getrennte Suchprofile, sprechen geeignete Menschen an und besprechen mit Ihnen die Belege je Anforderung. Sie erhalten für jede Rolle eine begründete Auswahl.",
+    "We turn the work into two distinct role briefs, approach suitable candidates and review evidence against each requirement with you. You receive a shortlist and a reason for each recommendation."
+   ],
+   "output": [
+    "Suchprofil, geprüfte Anforderungen und begründete Shortlist je Rolle.",
+    "A role brief, evidence against requirements and a reasoned shortlist for each role."
+   ],
+   "views": [
+    [
+     "railtile",
+     [
+      "Anforderung in eine Interviewfrage übersetzen.",
+      "Turn a requirement into an interview question."
+     ]
+    ],
+    [
+     "match",
+     [
+      "Passung und Belege je Anforderung prüfen.",
+      "Review fit and evidence for each requirement."
+     ]
+    ],
+    [
+     "hiring",
+     [
+      "Beide Besetzungen im Dashboard entscheiden.",
+      "Review both hires on the dashboard."
+     ]
+    ]
+   ],
+   "measure": [
+    "Zeit vom abgestimmten Suchprofil bis zur qualifizierten Shortlist.",
+    "Time from an agreed role brief to a qualified shortlist."
+   ],
+   "cta": [
+    "Besetzungsbedarf besprechen",
+    "Discuss a role you need to fill"
+   ],
+   "demo": null,
+   "path": "engineering-recruiting-and-headhunting",
+   "context": "rail"
+  },
+  {
+   "key": "teams",
+   "stream": "hwm",
+   "title": [
+    "Digital Teams as a Service",
+    "Digital Teams as a Service"
+   ],
+   "head": [
+    "Wer betreibt den Prozess nach dem ersten Projekttag?",
+    "Who runs the process after the first day on site?"
+   ],
+   "body": [
+    "Ein neuer Fachplaner braucht Zugang, ausstehende Prüfungen brauchen Vertretung, und offene Entscheidungen brauchen einen Termin. Ein Projektteam soll diese Arbeit im Alltag übernehmen können.",
+    "A new planner needs access. Reviews need deputy cover. Open decisions need due dates. The project needs a team that can run that work day after day."
+   ],
+   "service": [
+    "Wir definieren mit Ihnen den Auftrag für PMO und digitale Projektunterstützung. Wir klären Rollen, Kapazität und Vertretung, richten Aufgabenlisten ein und vereinbaren, wie Sie die Übergabe abnehmen.",
+    "We scope a PMO and digital delivery team with you. We agree roles, capacity and deputy cover, set up working registers and define how you will accept the handover."
+   ],
+   "output": [
+    "Teamauftrag, Rollen und Kapazitäten, Maßnahmenliste und vereinbarte Übergabe.",
+    "A team brief, role and capacity plan, action register and agreed handover."
+   ],
+   "views": [
+    [
+     "capacity",
+     [
+      "Verfügbare interne Kapazität besprechen.",
+      "Review available internal capacity."
+     ]
+    ],
+    [
+     "team",
+     [
+      "Aufgaben und geteilte Kapazität abgleichen.",
+      "Compare assigned work with shared capacity."
+     ]
+    ],
+    [
+     "",
+     [
+      "Übergabe mit Auftrag, Verantwortlichen und offenen Punkten.",
+      "Hand over the scope, owners and open actions."
+     ]
+    ]
+   ],
+   "measure": [
+    "Zeit bis zum arbeitsfähigen Team und Anteil der Aufgaben mit Verantwortlichem und Vertretung.",
+    "Time to team readiness and share of tasks with an owner and a deputy."
+   ],
+   "cta": [
+    "Teamauftrag besprechen",
+    "Scope a delivery team"
+   ],
+   "demo": "nine",
+   "path": "digital-teams-as-a-service",
+   "context": "rail"
+  },
+  {
+   "key": "match",
+   "stream": "hwi",
+   "title": [
+    "Talent Matching Platform",
+    "Talent Matching Platform"
+   ],
+   "head": [
+    "Welche Fachkraft schließt die Lücke in der Inbetriebnahme?",
+    "Which specialist closes the commissioning gap?"
+   ],
+   "body": [
+    "Für die Schutztechnik fehlen im Beispiel zwei Vollzeitäquivalente in acht Wochen. Der Matching Report zeigt, wie die Anforderungen zur Erfahrung und Verfügbarkeit einer Person passen. Öffnen Sie anschließend die Prognose für das Team.",
+    "In the scenario, the team needs two full-time equivalents in protection engineering within eight weeks. The matching report links the requirement to each candidate’s experience and availability. The next view shows the projected effect on the team."
+   ],
+   "service": [
+    "Wir leiten die Anforderungen aus Ihrem Arbeitspaket ab und kalibrieren mit Ihnen Kriterien, Nachweise und Zielwerte. Im Review prüfen Sie mit uns, welche Annahmen die Rangfolge und die Teamprognose beeinflussen.",
+    "We derive the criteria from your work package and calibrate evidence requirements and targets with you. In a review, you can see which assumptions influence candidate ranking and the team projection."
+   ],
+   "output": [
+    "Abgestimmte Matchingkriterien, Talent Pool und dokumentierte Auswahlentscheidung.",
+    "Agreed matching criteria, a talent pool and a documented selection decision."
+   ],
+   "views": [
+    [
+     "uc6gap",
+     [
+      "Die Lücke im Arbeitspaket prüfen.",
+      "Inspect the work package gap."
+     ]
+    ],
+    [
+     "uc6report",
+     [
+      "Anforderungen und Teamwirkung im Bericht lesen.",
+      "Read the matching and team evidence."
+     ]
+    ],
+    [
+     "uc6dash",
+     [
+      "Auswirkungen im Teamdashboard einordnen.",
+      "Review the effect on the team dashboard."
+     ]
+    ]
+   ],
+   "measure": [
+    "Nach Besetzung den vereinbarten Teamindikator erneut messen. Der Matchwert beschreibt die Passung zur Rolle.",
+    "Remeasure the agreed team indicator after placement. The candidate match score describes fit against the role."
+   ],
+   "cta": [
+    "Matchingkriterien besprechen",
+    "Discuss matching criteria"
+   ],
+   "demo": "six",
+   "path": "talent-matching-platform",
+   "context": "converter"
+  }
+ ],
+ "streams": {
+  "hpm": [
+   "Project Management",
+   [
+    "Was braucht die Baustelle, um den nächsten Abschnitt freizugeben?",
+    "What does the site need to release the next section?"
+   ],
+   [
+    "Wir koordinieren Planstände, Prüfungen und Übergaben zwischen Planung und Ausführung.",
+    "We coordinate drawing revisions, reviews and handovers between design and construction."
+   ]
+  ],
+  "hpi": [
+   "Project Intelligence",
+   [
+    "Welche Entscheidung hält den nächsten Arbeitsschritt auf?",
+    "Which decision is holding up the next work package?"
+   ],
+   [
+    "Die Software verknüpft Unterlagen, Zuständigkeiten und Entscheidungen. Verfolgen Sie einen Vorgang vom Eingang bis zur Freigabe.",
+    "The software links records, responsibilities and decisions. Follow one package from receipt through release."
+   ]
+  ],
+  "hwm": [
+   "Workforce Management",
+   [
+    "Wer übernimmt die Arbeit, die heute liegen bleibt?",
+    "Who will take on the work that keeps getting deferred?"
+   ],
+   [
+    "Higherd klärt mit der Projektleitung, welche Aufgaben anfallen, und unterstützt bei der Besetzung einzelner Rollen oder eines Projektteams.",
+    "Higherd works with the project lead to define the work and staff an individual role or a project team."
+   ]
+  ],
+  "hwi": [
+   "Workforce Intelligence",
+   [
+    "Kann Ihr Team Ihre Strategie umsetzen?",
+    "Can your workforce deliver your strategy?"
+   ],
+   [
+    "Vergleichen Sie interne Verstärkung und externe Besetzung anhand von Fähigkeiten, Verfügbarkeit und sechs Transformationszielen. Prüfen Sie die Entwicklung nach der Entscheidung.",
+    "Model how workforce decisions move the company toward its transformation goals across six dimensions. Compare options before committing and track results afterward."
+   ]
+  ]
+ },
+ "cases": [
+  [
+   "approval",
+   [
+    "Planprüfung und Freigabe",
+    "Drawing review and release"
+   ],
+   [
+    "Index A enthielt eine Auflage für den Wartungszugang. In Index B prüft die Programmleitung die Antworten der Fachprüfung und Bauüberwachung. Die Baustelle kann im Register nachsehen, welche Revision freigegeben ist.",
+    "Revision A carried a condition on maintenance access. On revision B, the programme lead reviews the responses from the technical reviewer and the site supervisor. The site can look up the issue released for construction."
+   ],
+   "bim",
+   "hbf",
+   "release",
+   null
+  ],
+  [
+   "ai",
+   [
+    "KI im komplexen Projekt",
+    "AI in a complex project"
+   ],
+   [
+    "Im Bahnelektrifizierungsprojekt bleiben Freigaben während der Urlaubszeit liegen. Die Projektleiterin prüft zwei Rollenvorschläge, passt die Anforderungen an und entscheidet im Dashboard über beide Besetzungen.",
+    "Approvals stall during leave on a railway electrification project. The project lead reviews two proposed roles, refines the requirements and decides on both appointments in the dashboard."
+   ],
+   "recruit",
+   "rail",
+   "hiring",
+   null
+  ],
+  [
+   "planning",
+   [
+    "Strategische Personalplanung",
+    "Strategic workforce planning"
+   ],
+   [
+    "Acht Menschen arbeiten projektübergreifend. Die Abteilungsleitung vergleicht eine neue Leitung mit 39 Wochenstunden mit einer internen Lösung von 16 Stunden. Im zweiten Szenario bleiben 23 Stunden für das Herkunftsprojekt. Sie prüft die Auswirkungen auf sechs Ziele und gibt eine Variante zur weiteren Entscheidung.",
+    "Eight people share work across projects. The department lead compares a new lead at 39 hours per week with an internal lead at 16 hours. The internal option leaves 23 hours for the source project. The lead reviews the effect on six targets and sends one option for approval."
+   ],
+   "teams",
+   "canopy",
+   "capacity",
+   "nine"
+  ],
+  [
+   "matching",
+   [
+    "Fachliche Passung und Teamwirkung",
+    "Role fit and team impact"
+   ],
+   [
+    "Ein Arbeitspaket für Schutztechnik braucht innerhalb von acht Wochen zwei Fachkräfte in Vollzeit. Die Projektleitung prüft zuerst die Fähigkeiten, dann die Verfügbarkeit und schließlich den modellierten Beitrag zur Arbeitsweise des Teams.",
+    "A protection engineering work package needs two full-time equivalents within eight weeks. The team checks skills, availability and the modeled contribution to how the team works before selecting a candidate."
+   ],
+   "match",
+   "converter",
+   "match",
+   "six"
+  ]
+ ],
+ "services": [
+  [
+   "controls",
+   [
+    "Projektsteuerung",
+    "Project Controls"
+   ],
+   [
+    "Welche Prüfung gefährdet den Übergabetermin?",
+    "Which outstanding inspection could delay handover?"
+   ],
+   [
+    "Wir verbinden Prüftermine mit Nachweisen und Zuständigkeiten. Im Qualitätsgespräch sieht die Projektleitung, welche Unterlagen fehlen, wer nachfasst und wann der Abschnitt zur Abnahme bereit sein soll.",
+    "We connect inspection dates with evidence and responsibilities. At the quality review, the project lead sees what is missing, who will follow up and when each section is due for acceptance."
+   ],
+   [
+    "Prüfmatrix, Maßnahmenliste und Entscheidungsbedarf für die nächste Steuerungsrunde.",
+    "An inspection matrix, action register and decisions for the next controls meeting."
+   ],
+   "site",
+   "converter"
+  ],
+  [
+   "decision",
+   [
+    "Entscheidungsprozesse",
+    "Decision Workflows"
+   ],
+   [
+    "Wer darf den nächsten Planstand freigeben?",
+    "Who has authority to release the next drawing revision?"
+   ],
+   [
+    "Wir legen mit Ihnen fest, welche Prüfungen abgeschlossen sein müssen, wer entscheiden darf und wer bei Abwesenheit vertritt. Ein Musterfall zeigt, wie Auflagen, Entscheidung und betroffene Revision zusammenbleiben.",
+    "We agree which reviews must be complete, who can decide and who acts as deputy. A worked example shows how to keep conditions, decisions and revisions together."
+   ],
+   [
+    "Entscheidungsweg mit Rollen, Stellvertretung, Eskalation und Nachweisen.",
+    "A decision route with roles, deputies, escalation and supporting evidence."
+   ],
+   "bim",
+   "hbf"
+  ]
+ ],
+ "metrics": [
+  [
+   [
+    "Zeit",
+    "Time"
+   ],
+   [
+    "Wie lange wartet ein vollständiger Plansatz auf die Freigabe?",
+    "How long does a complete package wait for release?"
+   ],
+   [
+    "Median aus Freigabezeitpunkt minus vollständigem Eingang. Pakete gleicher Art und desselben Zeitraums vergleichen.",
+    "Use the median time from complete receipt to release. Compare equivalent package types over comparable periods."
+   ]
+  ],
+  [
+   [
+    "Kosten",
+    "Cost"
+   ],
+   [
+    "Wie viel Arbeitszeit kostet die Vorbereitung einer Einreichung?",
+    "How much preparation time does a submission consume?"
+   ],
+   [
+    "Erfasste Bearbeitungsstunden je Paket mit dem vereinbarten Stundensatz bewerten. Betriebsaufwand für die Lösung gesondert abziehen.",
+    "Multiply logged handling hours per package by the agreed loaded hourly rate. Deduct the running cost of the solution separately."
+   ]
+  ],
+  [
+   [
+    "Qualität",
+    "Quality"
+   ],
+   [
+    "Wie viele Pakete bestehen die erste Prüfung?",
+    "How many packages pass their first review?"
+   ],
+   [
+    "Beim ersten Prüflauf akzeptierte Pakete durch alle geprüften Pakete teilen. Rückgabegrund und Revision festhalten.",
+    "Divide packages accepted on first review by all reviewed packages. Record the reason for return and the revision."
+   ]
+  ],
+  [
+   [
+    "Erfahrungswissen",
+    "Lessons learned"
+   ],
+   [
+    "Kommt dieselbe Auflage im nächsten Paket wieder?",
+    "Does the same condition recur in the next package?"
+   ],
+   [
+    "Wiederkehrende Rückgabegründe je 100 vergleichbare Pakete vor und nach Anpassung der Vorlage erfassen.",
+    "Count repeat return reasons per 100 comparable packages before and after a template change."
+   ]
+  ]
+ ],
+ "demos": {
+  "one": "https://hi-gherd.com/pi-demo-2026-UC01/",
+  "five": "https://hi-gherd.com/pi-demo-2026-UC05/",
+  "six": "https://hi-gherd.com/wi-demo-2026/",
+  "nine": "https://hi-gherd.com/wi-demo-2026-UC09/"
+ },
+ "media": {
+  "source": "source.jpg",
+  "portal": "portal.jpg",
+  "hbf": "hbf.jpg",
+  "register": "register.jpg",
+  "railtile": "railtile.jpg",
+  "match": "match.jpg",
+  "rail": "rail.jpg",
+  "pdf": "pdf.jpg",
+  "converter": "converter.jpg",
+  "bim": "bim.jpg",
+  "s21": "s21.jpg",
+  "canopy": "canopy.jpg",
+  "release": "release.jpg",
+  "wtasks": "wtasks.jpg",
+  "model": "model.jpg",
+  "task": "task.jpg",
+  "capacity": "capacity.jpg",
+  "plant": "plant.jpg",
+  "drawing": "drawing.jpg",
+  "uc6report": "uc6report.jpg",
+  "team": "team.jpg",
+  "uc6dash": "uc6dash.jpg",
+  "workflow": "workflow.jpg",
+  "hiring": "hiring.jpg",
+  "cable": "cable.jpg",
+  "overview": "overview.jpg",
+  "uc6gap": "uc6gap.jpg"
+ }
+}

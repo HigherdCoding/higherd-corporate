@@ -1,0 +1,6 @@
+{
+  "origin": "https://www.higherd.de",
+  "index": false,
+  "version": 1,
+  "leadFlow": "https://385ea8a6ffffe512ac85c80a4fae45.57.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/14/workflows/dfe2e9429ea7454392817fc9f128d90c/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=K-pAIfadAdv733SdRgJgaCPsrMUJVd6QAwv980paERw"
+}

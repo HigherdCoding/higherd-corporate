@@ -1,0 +1,22 @@
+/* Additions for the real site: language links, footer links, contact form, legal text */
+.languages a{border:0;background:white;color:#403a47;padding:4px 8px;font-size:13px;line-height:20px;text-decoration:none}
+.languages a[aria-current=true]{background:#4500a8;color:white}
+#foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px}
+.foot-links{display:flex;gap:18px}
+.form{max-width:815px;padding:25px}
+.form:hover{filter:none}
+.form .g2{gap:0 16px}
+.field{margin-bottom:12px}
+.field label{display:block;font-size:15px;font-weight:bold;margin-bottom:5px}
+.field input,.field select,.field textarea{width:100%;font:inherit;font-size:16px;color:inherit;background:white;border:1px solid #8d8494;border-radius:7px;padding:10px 12px}
+.field textarea{resize:vertical;display:block}
+.field select{height:46px}
+.field [aria-invalid=true]{border-color:#b3261e}
+.field :is(input,select,textarea):focus-visible{outline:3px solid #e67722;outline-offset:1px}
+.form .error{color:#b3261e;font-size:14px;margin:4px 0 0;min-height:0}
+.form .topic{background:#f1eafa;border-radius:8px;padding:12px 15px;margin:0 0 18px}
+.form .btn{border:0;cursor:pointer}
+.form .btn:disabled{opacity:.6;cursor:default}
+.legal{max-width:815px;padding-bottom:44px}
+.legal h2{font-size:24px;margin-top:30px}
+[hidden]{display:none!important}
